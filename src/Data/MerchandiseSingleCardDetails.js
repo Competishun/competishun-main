@@ -9,12 +9,14 @@ export const MerchandiseSingleCardDetails = {
         'In-depth coverage of all essential topics and key concepts in each subject.',
       bullet3:
         'Detailed explanations and examples provided to ensure thorough understanding.',
-      bullet4: 'Incorporates a test series to assess comprehension and readiness for the NEET (UG) exam.',
-      bullet5: 'Tailored to help students build a strong foundation and retain critical information.',
+      bullet4:
+        'Incorporates a test series to assess comprehension and readiness for the NEET (UG) exam.',
+      bullet5:
+        'Tailored to help students build a strong foundation and retain critical information.',
       bullet6:
         'A4 size format ensures easy readability and convenience during study sessions.',
       bullet7:
-        "Helps students gauge their progress and identify areas needing improvement through practice",
+        'Helps students gauge their progress and identify areas needing improvement through practice',
       bullet8:
         'Trusted resource by successful NEET candidates for exam preparation.',
     },
@@ -30,12 +32,14 @@ export const MerchandiseSingleCardDetails = {
         'Includes 6 meticulously crafted books: 2 each for Physics and Chemistry, and 1 each for Zoology and Botany.',
       bullet3:
         'Authored by seasoned educators and subject matter experts to ensure accurate, relevant, and up-to-date content aligned with the latest NEET syllabus.        ',
-      bullet4: 'Detailed explanations and illustrative examples provided to make complex concepts easier to understand and remember.',
-      bullet5: 'Bonus test series included to simulate the NEET exam environment, aiding effective practice and preparation assessment.',
+      bullet4:
+        'Detailed explanations and illustrative examples provided to make complex concepts easier to understand and remember.',
+      bullet5:
+        'Bonus test series included to simulate the NEET exam environment, aiding effective practice and preparation assessment.',
       bullet6:
         'Structured learning approach to help students build a strong foundation in all essential subjects.',
       bullet7:
-        "Provides a clear path to success with focused and comprehensive coverage of all key topics.",
+        'Provides a clear path to success with focused and comprehensive coverage of all key topics.',
       bullet8:
         'Trusted resource by successful JEE Main candidates for exam preparation.',
     },
@@ -51,16 +55,42 @@ export const MerchandiseSingleCardDetails = {
         'Includes detailed study material for Physics, Chemistry, Zoology, and Botany.',
       bullet3:
         'Total of 1782 pages covering all essential topics and concepts thoroughly.',
-      bullet4: 'Crafted to help students grasp and retain key concepts effectively.',
-      bullet5: 'Comes with a bonus test series to assess understanding and enhance exam readiness.',
+      bullet4:
+        'Crafted to help students grasp and retain key concepts effectively.',
+      bullet5:
+        'Comes with a bonus test series to assess understanding and enhance exam readiness.',
       bullet6:
         '4 book set designed to provide a robust and efficient preparation strategy for NEET (UG) aspirants.',
       bullet7:
-        "Ensures thorough exploration of each subject, aiding in-depth learning.",
+        'Ensures thorough exploration of each subject, aiding in-depth learning.',
       bullet8:
         'Essential study material to boost your chances of success in the competitive NEET (UG) examination.',
     },
     link: 'https://www.amazon.in/dp/B0D5DRLBMK?ref=myi_title_dp',
+  },
+
+  NEWJEEMAINS: {
+    title:
+      'Competishun JEE Main 6 Years (2019-2024) Mathematics | All Shifts Previous Years Solved Papers Chapter-wise and Topic-wise PYQs For JEE Main 2025 Exams',
+    about: {
+      bullet1:
+        ' PYQ Practice: Engage with recent Previous Year Questions (PYQs) to stay current with the latest trends and formats.',
+      bullet2:
+        ' Quality Questions: Tackle challenging questions that enhance your preparation, matching the difficulty level of the JEE Main exam.',
+      bullet3:
+        ' Extensive Coverage: Review all 124 shift papers from the past 6 years of the JEE Main for a comprehensive study experience.',
+      bullet4:
+        ' Topic-Specific Practice: Master JEE Mathematics questions sorted by topic, allowing focused practice on specific areas.',
+      bullet5:
+        ' Error-free Solutions: Improve problem-solving skills with error-free, detailed solutions for all JEE questions.',
+      bullet6:
+        ' Question Mastery: Get familiar with various question types, including MCQs and Numerical Type Questions, to handle any format in the JEE exam.',
+      bullet7:
+        'Prepare to excel with this strategic resource at your fingertips. ',
+      bullet8:
+        'Trusted resource by successful JEE Main candidates for exam preparation.',
+    },
+    link: '',
   },
 
   JEEMAINPYQ: {

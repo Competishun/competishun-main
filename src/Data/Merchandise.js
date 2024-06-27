@@ -1,6 +1,7 @@
 import JeeMainPyq from '../assets/Books/JEE MAIN PYQ.jpg';
 import JeeAdvancedPyq from '../assets/Books/JEE Adv. PYQ.jpg';
 import JeeMini from '../assets/Books/JEE MINI.jpg';
+import newjeemains from '../assets/Books/new_jee_main_2.jpg';
 // jee mains pyqs books ----------------------------------------------------------------
 import JeeMainPhysics from '../assets/Books/JeeMain/JeeMainPhysics.jpg';
 import JeeMainChemistry from '../assets/Books/JeeMain/JeeMainChemistry.jpg';
@@ -37,6 +38,10 @@ export const MerchandiseNewArrivals = [
 ];
 
 export const MerchandiseData = [
+  {
+    src: newjeemains,
+    title: 'NEWJEEMAINS',
+  },
   {
     src: JeeMainPyq,
     title: 'JEEMAINPYQ',
