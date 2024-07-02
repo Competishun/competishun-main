@@ -6,11 +6,9 @@ import AllRoutes from './routes/AllRoutes';
 import { logEvent } from 'firebase/analytics';
 import { analytics } from './constants/Firebase';
 import PopupModal from './utils/PopupModal';
-import {images} from './Data/UpcomingCoursesPopupData'
-
+import { images } from './Data/UpcomingCoursesPopupData';
 
 const Layout = () => {
-  
   const [showModal, setShowModal] = useState(false);
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -26,7 +24,6 @@ const Layout = () => {
   // }, []);
 
   useEffect(() => {
-   
     // Show modal after 3 seconds
     const timer = setTimeout(() => {
       setShowModal(true);
@@ -41,20 +38,20 @@ const Layout = () => {
     setShowModal(false);
   };
 
-  
-
   return (
     <div>
       {/* <NewOffer /> */}
       <Navbar />
-      <AllRoutes/>
+      <AllRoutes />
       <Footer />
-      { <PopupModal
+      {showModal && (
+        <PopupModal
           show={showModal}
           onClose={handleCloseModal}
           imagearray={currentarray}
           currentImage={currentImage}
-        />}
+        />
+      )}
     </div>
   );
 };
